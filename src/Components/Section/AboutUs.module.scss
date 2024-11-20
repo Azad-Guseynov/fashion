@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    height: 430px;
+    margin-bottom: 50px;
+
+    .titles {
+        margin-left: 60px;
+
+        .about {
+            font-weight: bold;
+            color: #633848;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            line-height: 26px;
+            color: #ffffff6e;
+        }
+
+        button {
+            margin-top: 40px;
+            width: 170px;
+            height: 50px;
+            color: aqua;
+            font-weight: bold;
+            font-size: 16px;
+            background: #bd2c98;
+            border: none;
+        }
+    }
+}

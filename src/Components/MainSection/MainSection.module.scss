@@ -1,0 +1,46 @@
+.container {
+    background-image: url("hero-bg.jpg");
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 800px;
+    position: relative;
+    margin-bottom: 100px;
+    // margin: 0 auto;
+
+    .titles {
+        width: 430px;
+        position: absolute;
+        left: 350px;
+        top: 250px;
+
+        p {
+            color: #b87192;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        h2 {
+            font-size: 62px;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 25px;
+        }
+
+        .lorem {
+            line-height: 32px;
+            color: aqua;
+        }
+
+        button {
+            margin-top: 40px;
+            width: 170px;
+            height: 50px;
+            color: aqua;
+            font-weight: bold;
+            font-size: 16px;
+            font-size: 16px;
+            background: #bd2c98;
+            border: none;
+        }
+    }
+}

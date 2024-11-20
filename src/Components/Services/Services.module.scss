@@ -1,0 +1,47 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+
+    p {
+        font-weight: bold;
+        color: #633848;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 70px;
+    }
+
+    .cards {
+        display: flex;
+        gap: 35px;
+
+        .card {
+            width: 400px;
+            height: 350px;
+            background: #00000046;
+
+            img {
+                margin-top: 50px;
+                margin-bottom: 40px;
+            }
+
+            h2 {
+                margin-bottom: 40px;
+            }
+
+            p {
+                width: 300px;
+                margin: 0 auto;
+                font-size: 18px;
+                color: rgba(255, 255, 255, 0.541);
+                line-height: 25px;
+                font-weight: lighter;
+            }
+        }
+    }
+}
